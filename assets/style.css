@@ -182,3 +182,52 @@ footer {
     flex: 1;
   }
 
+.contact {
+    justify-content: space-between;
+}
+
+.trainer img {
+    float: left;
+    width: 35%;
+}
+
+.trainer {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background:#7dcb5f
+    var(--secondary-color)
+}
+
+.trainer-bio {
+    paddng: 35px;
+    float: left;
+    width: 65%;
+}
+
+.section-title {
+    font-size: 48px;
+    border-bottom: 3px solid;
+    color: var(--secondary-color);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+  }
+  
+  .primary-border {
+    border-color: var(--primary-color);
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+  }
